@@ -1,0 +1,114 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: #ffffff;
+    background: linear-gradient(rgb(0, 0, 0) 5%, rgb(76, 0, 255) 100%);
+    margin: 10%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 26, 255) 100%);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+nav .logo img {
+    height: 80px;
+}
+
+nav .eslogan {
+    margin: 0;
+    font-size: 50px; 
+    color: rgb(223, 223, 223);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0); 
+}
+
+nav .eslogan:hover {
+    font-size: 70px;
+}
+
+nav .panel {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+   
+   
+}
+
+nav .panel a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+   
+}
+
+.plano img {
+    width: 1000px;
+    height: auto;
+    padding-left: 10%;
+}
+
+.reservado {
+    text-align: center;
+}
+
+table, th, td {
+    border: 2px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    text-align: center; 
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: rgba(255, 239, 91, 0.527);
+}
+
+td {
+    background-color: rgba(255, 155, 4, 0.678);
+}
+
+.cocktails {
+    text-align: center;
+}
+
+.cocktail {
+    margin: 20px 0; 
+}
+
+.cocktail img {
+    width: 500px; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.descripcion {
+    font-size: 18px; 
+    color: #ffffff; 
+    margin: 10px; 
+}
+
+.ordenar {
+    background-color: #ff5733; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.ordenar:hover {
+    background-color: #c70039; 
+}
